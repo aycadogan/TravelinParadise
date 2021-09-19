@@ -50,6 +50,12 @@ nav ul li {
   list-style-type: none;
 }
 
+main .light-blue-box {
+  background-color: #DFE8EC;
+  width: 100%;
+  height: 510px;
+  z-index: 10;
+}
 main .container img {
   width: 30%;
   height: 568px;
