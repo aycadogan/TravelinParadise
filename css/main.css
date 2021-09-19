@@ -14,6 +14,7 @@ nav {
   height: 80px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1;
 }
 nav .navbar-navigation-left {
   margin-left: 30px;
@@ -33,7 +34,67 @@ nav .navbar-navigation-right ul li {
 }
 
 main {
-  margin: 2rem 30px 0 30px;
+  margin-top: 2.5rem;
+}
+main .container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 100px;
+}
+main .bluebox {
+  grid-column: 1/-1;
+  grid-row: 3/8;
+  z-index: -1;
+}
+main .article-left {
+  position: relative;
+  grid-column: 1/2;
+  grid-row: 1/-1;
+  margin-left: 30px;
+}
+main .article-left img {
+  z-index: 30;
+}
+main .article-left .rectangle {
+  position: absolute;
+  top: 3rem;
+  left: 5rem;
+  z-index: -1;
+}
+main .article-left p {
+  position: absolute;
+  top: 41rem;
+  left: 5rem;
+  width: 80%;
+}
+main .article-middle {
+  grid-row: 1/-1;
+  grid-column: 2/3;
+  position: relative;
+}
+main .article-middle h1 {
+  position: absolute;
+  top: 20rem;
+  left: 8rem;
+}
+main .article-middle h2 {
+  position: absolute;
+  top: 22rem;
+  left: 7rem;
+}
+main .article-right {
+  grid-row: 1/-1;
+  grid-column: 3/4;
+  position: relative;
+}
+main .article-right p {
+  width: 70%;
+  position: absolute;
+}
+main .article-right img {
+  position: absolute;
+  top: 8rem;
 }
 
 nav img {
@@ -50,41 +111,58 @@ nav ul li {
   list-style-type: none;
 }
 
-main .light-blue-box {
-  background-color: #DFE8EC;
+main .bluebox {
   width: 100%;
-  height: 510px;
-  z-index: 10;
+  height: 480px;
+  background-color: #DFE8EC;
 }
-main .container img {
-  width: 30%;
+main img {
+  width: 380px;
   height: 568px;
 }
-main .container p {
+main p {
   color: #808080;
-  font-style: italic;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
+  font-style: italic;
 }
-main .container h1 {
+main h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 20px;
   letter-spacing: 1.5px;
 }
-main .container h2 {
+main h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 48px;
   letter-spacing: 1.5px;
   font-weight: 700;
 }
-main .container .rectangle {
+main .rectangle {
   width: 323px;
   height: 547px;
   border: 4px solid #6B7B83;
+}
+
+.section-first h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: auto;
+  letter-spacing: 1px;
+}
+.section-first p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+}
+.section-first img {
+  width: 40%;
+  height: 430px;
 }
 
 /*# sourceMappingURL=main.css.map */
