@@ -1,5 +1,15 @@
 @use 'base' as *;
 
-h3{
-    font-size: 80px;
+nav{
+    img{
+        width: 162px;
+        height: 80px;
+    }
+    ul{
+        @include robotoRegular;
+        li{
+            list-style-type: none;
+        }
+    }
+
 }
