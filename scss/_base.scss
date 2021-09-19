@@ -32,7 +32,12 @@ $font-OpenSans: 'Open Sans', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
+
+@mixin box($height){
+    width: 100%;
+    height: $height;
+}
   
   %fullSpace{
       width: 100%;

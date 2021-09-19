@@ -11,5 +11,30 @@ nav{
             list-style-type: none;
         }
     }
+}
 
+main{
+    .container{
+        img{
+            width: 30%;
+            height: 568px;
+        }
+        p{
+            color: $color-gray;
+            font-style: italic;
+            @include paragraphStyle(300);
+        }
+        h1{
+            @include robotoRegular(20px);
+        }
+        h2{
+            @include robotoRegular(48px);
+            font-weight: 700;
+        }
+        .rectangle{
+            width: 323px;
+            height: 547px;
+            border: 4px solid $color-second-blue;
+        }
+    }
 }
