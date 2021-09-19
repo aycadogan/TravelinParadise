@@ -1,1 +1,39 @@
+$color-black: #111111;
+$color-white: #ffffff;
+$color-gray: #808080;
+$color-first-blue: #DFE8EC;
+$color-second-blue: #6B7B83;
 
+$font-Roboto: 'Roboto', sans-serif;
+$font-OpenSans: 'Open Sans', sans-serif;
+
+@mixin robotoRegular($fontSize: 14px){
+    font-family: $font-Roboto;
+    font-weight: 400;
+    font-size: $fontSize;
+    letter-spacing: 1.5px;
+}
+@mixin paragraphStyle($fontWeight:400){
+    font-family: $font-OpenSans;
+    font-weight: $fontWeight;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@mixin titleStyle{
+    font-family: $font-Roboto;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: auto;
+    letter-spacing: 1px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $color-white;
+}
