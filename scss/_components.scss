@@ -108,7 +108,7 @@ main{
 .section-third{
     .bluebox{
         width: 100%;
-        height: 650px;
+        height: 550px;
         background-color: $color-first-blue;
     }
     .article-left{
@@ -147,11 +147,14 @@ main{
     }
 }
 .section-four{
+    background: url(../images/pexelsphoto732499.jpg)no-repeat center center/cover;
     width: 100%;
-    height: 650px;
+    height: 750px;
 }
 .section-five{
     background-color: $color-second-blue;
+    width: 100%;
+    height: 490px;
     img{
         width: 644px;
         height: 312px;
@@ -160,18 +163,22 @@ main{
 .section-six{
 
     background-color: $color-first-blue;
+    width: 100%;
+    height: 596px;
     h3{
         @include titleStyle;
     }
     p{
         @include paragraphStyle;
         color: $color-gray;
+        width: 15%;
+        text-align: center;
     }
     .input{
         @include inputArea;
     }
     .textarea{
-        @include inputArea;
+        @include inputArea(121);
     }
     button{
         font-family: $font-OpenSans;
@@ -181,6 +188,8 @@ main{
         border-width: 0;
         background-color: $color-second-blue;
         cursor: pointer;
+        width: 139px;
+        height: 55px;
         
     }
 }

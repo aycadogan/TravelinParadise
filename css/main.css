@@ -200,7 +200,7 @@ main .article-right img {
 }
 .section-third .article-middle img {
   position: absolute;
-  top: 33rem;
+  top: 30rem;
 }
 .section-third .article-right {
   position: absolute;
@@ -213,7 +213,52 @@ main .article-right img {
 }
 .section-third .article-right p {
   position: absolute;
-  top: 50rem;
+  top: 40rem;
+}
+
+.section-four {
+  margin-top: 55rem;
+}
+
+.section-five img {
+  margin-left: 25%;
+  margin-top: 10%;
+}
+
+.section-six {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px;
+}
+.section-six .article-left {
+  grid-column: 1/2;
+  grid-row: 2/-1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-six .article-left h3 {
+  position: absolute;
+  top: 8rem;
+}
+.section-six .article-left p {
+  position: absolute;
+  top: 13rem;
+}
+.section-six .article-right {
+  grid-column: 2/3;
+  grid-row: 3/-1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.section-six .article-right .input {
+  padding-left: 1rem;
+}
+.section-six .article-right .textarea {
+  padding-left: 1rem;
+  padding-top: 1rem;
 }
 
 nav img {
@@ -338,7 +383,7 @@ main .rectangle {
 
 .section-third .bluebox {
   width: 100%;
-  height: 650px;
+  height: 550px;
   background-color: #DFE8EC;
 }
 .section-third .article-left h3 {
@@ -383,12 +428,15 @@ main .rectangle {
 }
 
 .section-four {
+  background: url(../images/pexelsphoto732499.jpg) no-repeat center center/cover;
   width: 100%;
-  height: 650px;
+  height: 750px;
 }
 
 .section-five {
   background-color: #6B7B83;
+  width: 100%;
+  height: 490px;
 }
 .section-five img {
   width: 644px;
@@ -397,6 +445,8 @@ main .rectangle {
 
 .section-six {
   background-color: #DFE8EC;
+  width: 100%;
+  height: 596px;
 }
 .section-six h3 {
   font-family: "Roboto", sans-serif;
@@ -412,16 +462,22 @@ main .rectangle {
   line-height: 24px;
   font-style: italic;
   color: #808080;
+  width: 15%;
+  text-align: center;
 }
 .section-six .input {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
+  width: 425px;
+  height: 55px;
 }
 .section-six .textarea {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
+  width: 425px;
+  height: 121;
 }
 .section-six button {
   font-family: "Open Sans", sans-serif;
@@ -431,6 +487,8 @@ main .rectangle {
   border-width: 0;
   background-color: #6B7B83;
   cursor: pointer;
+  width: 139px;
+  height: 55px;
 }
 
 /*# sourceMappingURL=main.css.map */

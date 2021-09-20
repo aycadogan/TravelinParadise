@@ -40,10 +40,12 @@ $font-OpenSans: 'Open Sans', sans-serif;
     width: 100%;
     height: $height;
 }
-@mixin inputArea(){
+@mixin inputArea($height: 55px){
     font-family: $font-OpenSans;
     font-size: 14px;
     font-weight: 400;
+    width: 425px;
+    height: $height;
 }
 
 %fullSpace{

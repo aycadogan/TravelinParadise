@@ -217,16 +217,12 @@ main{
 
         img{
             position: absolute;
-            top: 33rem;
+            top: 30rem;
         }
     }
     .article-right{
         position: absolute;
         grid-column: 3 / 4;
-
-        .rectangle{
-            
-        }
 
         img{
             position: absolute;
@@ -235,7 +231,61 @@ main{
         }
         p{
             position: absolute;
-            top: 50rem;
+            top: 40rem;
         }
+    }
+}
+.section-four{
+    margin-top: 55rem;
+}
+.section-five{
+    img{
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+}
+.section-six{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px;
+    
+
+    .article-left{
+        grid-column: 1 / 2;
+        grid-row: 2 / -1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        h3{
+            position: absolute;
+            top: 8rem;
+
+        }
+        
+
+        p{
+            position: absolute;
+            top: 13rem;
+        }
+        
+    }
+    .article-right{
+        grid-column: 2 / 3;
+        grid-row: 3 / -1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .input{
+            padding-left: 1rem;
+        }
+
+        .textarea{
+            padding-left: 1rem;
+            padding-top: 1rem;
+        }
+
     }
 }
