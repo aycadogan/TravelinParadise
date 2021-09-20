@@ -50,10 +50,12 @@ main{
         @include titleStyle;
     }
     p{
-        @include robotoRegular;
+        @include paragraphStyle;
+        color: $color-gray;
+        width: 75%;
     }
     img{
-        width: 40%;
+        width: 600px;
         height: 430px;
     }
 }

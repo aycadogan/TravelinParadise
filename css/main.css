@@ -44,7 +44,7 @@ main .container {
 }
 main .bluebox {
   grid-column: 1/-1;
-  grid-row: 3/8;
+  grid-row: 3/10;
   z-index: -1;
 }
 main .article-left {
@@ -95,6 +95,28 @@ main .article-right p {
 main .article-right img {
   position: absolute;
   top: 8rem;
+}
+
+.section-first {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px;
+  margin-bottom: 8rem;
+}
+.section-first .text {
+  grid-column: 1/2;
+  grid-row: 2/6;
+  margin-left: 30px;
+}
+.section-first .text h3 {
+  margin-bottom: 1rem;
+}
+.section-first .image {
+  grid-column: 2/3;
+  grid-row: 1/6;
+  margin-right: 30px;
+  position: absolute;
 }
 
 nav img {
@@ -155,13 +177,16 @@ main .rectangle {
   letter-spacing: 1px;
 }
 .section-first p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 14px;
-  letter-spacing: 1.5px;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: italic;
+  color: #808080;
+  width: 75%;
 }
 .section-first img {
-  width: 40%;
+  width: 600px;
   height: 430px;
 }
 
