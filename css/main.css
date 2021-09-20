@@ -119,6 +119,63 @@ main .article-right img {
   position: absolute;
 }
 
+.section-second .bluebox {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px;
+}
+.section-second .bluebox img {
+  position: absolute;
+  top: 16rem;
+  z-index: 1;
+}
+.section-second .bluebox .article-left {
+  position: relative;
+  position: relative;
+  margin-left: 30px;
+  grid-column: 1/2;
+  grid-row: 2/-1;
+}
+.section-second .bluebox .article-left .blue {
+  width: 75%;
+}
+.section-second .bluebox .article-left h3 {
+  position: absolute;
+  top: 30rem;
+  width: 60%;
+}
+.section-second .bluebox .article-left .grey {
+  position: absolute;
+  top: 45rem;
+  width: 70%;
+}
+.section-second .bluebox .article-middle {
+  position: relative;
+  grid-column: 2/3;
+  grid-row: 2/-1;
+}
+.section-second .bluebox .article-middle img {
+  position: absolute;
+  top: 0rem;
+}
+.section-second .bluebox .article-right {
+  grid-column: 3/4;
+  grid-row: 2/10;
+}
+.section-second .bluebox .article-right p {
+  width: 70%;
+  margin-bottom: 1.5rem;
+}
+.section-second .bluebox .article-right img {
+  position: absolute;
+  top: 28rem;
+}
+
+.section-third {
+  margin-top: 32rem;
+}
+
 nav img {
   width: 162px;
   height: 80px;
@@ -205,7 +262,7 @@ main .rectangle {
   font-size: 16px;
   line-height: 24px;
   font-style: italic;
-  color: #DFE8EC;
+  color: #B8C9D3;
 }
 .section-second .article-left h3 {
   font-family: "Roboto", sans-serif;
@@ -223,7 +280,7 @@ main .rectangle {
   color: #808080;
 }
 .section-second .article-middle img {
-  width: 304px;
+  width: 344px;
   height: 700px;
 }
 .section-second .article-right p {
@@ -232,7 +289,7 @@ main .rectangle {
   font-size: 16px;
   line-height: 24px;
   font-style: italic;
-  color: #DFE8EC;
+  color: #B8C9D3;
 }
 .section-second .article-right img {
   width: 300px;

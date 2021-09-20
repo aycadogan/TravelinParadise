@@ -74,7 +74,7 @@ main{
     .article-left{
         .blue{
             @include paragraphStyle(600);
-            color: $color-first-blue;
+            color: $color-third-blue;
         }
         h3{
             @include titleStyle;
@@ -87,7 +87,7 @@ main{
 
     .article-middle{
         img{
-            width: 304px;
+            width: 344px;
             height: 700px;
             
         }
@@ -97,7 +97,7 @@ main{
 
         p{
             @include paragraphStyle(600);
-            color: $color-first-blue;
+            color: $color-third-blue;
         }
         img{
             width: 300px;
