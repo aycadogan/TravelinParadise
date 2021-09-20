@@ -132,7 +132,6 @@ main .article-right img {
 }
 .section-second .bluebox .article-left {
   position: relative;
-  position: relative;
   margin-left: 30px;
   grid-column: 1/2;
   grid-row: 2/-1;
@@ -174,6 +173,47 @@ main .article-right img {
 
 .section-third {
   margin-top: 32rem;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px;
+}
+.section-third .bluebox {
+  position: absolute;
+  top: 7rem;
+}
+.section-third .article-left {
+  position: absolute;
+  margin-left: 30px;
+  grid-column: 1/2;
+}
+.section-third .article-left h3 {
+  width: 60%;
+  margin-bottom: 4rem;
+}
+.section-third .article-middle {
+  position: absolute;
+  grid-column: 2/3;
+}
+.section-third .article-middle p {
+  width: 70%;
+}
+.section-third .article-middle img {
+  position: absolute;
+  top: 33rem;
+}
+.section-third .article-right {
+  position: absolute;
+  grid-column: 3/4;
+}
+.section-third .article-right img {
+  position: absolute;
+  top: 5rem;
+  left: 2.4rem;
+}
+.section-third .article-right p {
+  position: absolute;
+  top: 50rem;
 }
 
 nav img {
@@ -322,11 +362,11 @@ main .rectangle {
 }
 .section-third .article-middle img {
   width: 280px;
-  height: 545px;
+  height: 350px;
 }
 .section-third .article-right .rectangle {
   width: 287px;
-  height: 683px;
+  height: 533px;
   border: 4px solid #6B7B83;
 }
 .section-third .article-right img {

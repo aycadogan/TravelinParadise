@@ -137,7 +137,6 @@ main{
         }
         .article-left{
             position: relative;
-            position: relative;
             margin-left: 30px;
             grid-column: 1 / 2;
             grid-row: 2 / -1;
@@ -187,5 +186,56 @@ main{
     
 }
 .section-third{
+
     margin-top: 32rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+
+    .bluebox{
+        position: absolute;
+        top:7rem;
+    }
+    .article-left{
+        position: absolute;
+        margin-left: 30px;
+        grid-column: 1 / 2;
+
+        h3{
+            width: 60%;
+            margin-bottom: 4rem;
+        }
+    }
+    .article-middle{
+        position: absolute;
+        grid-column: 2 / 3;
+
+        p{
+            width: 70%;
+        }
+
+        img{
+            position: absolute;
+            top: 33rem;
+        }
+    }
+    .article-right{
+        position: absolute;
+        grid-column: 3 / 4;
+
+        .rectangle{
+            
+        }
+
+        img{
+            position: absolute;
+            top: 5rem;
+            left: 2.4rem;
+        }
+        p{
+            position: absolute;
+            top: 50rem;
+        }
+    }
 }
