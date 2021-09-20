@@ -39,11 +39,16 @@ $font-OpenSans: 'Open Sans', sans-serif;
     width: 100%;
     height: $height;
 }
-  
-  %fullSpace{
-      width: 100%;
-      height: 100%;
-  }
+@mixin inputArea(){
+    font-family: $font-OpenSans;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+%fullSpace{
+  width: 100%;
+  height: 100%;
+}
 
 *{
     margin: 0;

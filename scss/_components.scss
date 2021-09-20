@@ -45,7 +45,6 @@ main{
     
 }
 .section-first{
-
     h3{
         @include titleStyle;
     }
@@ -59,4 +58,129 @@ main{
         height: 430px;
     }
 }
+.section-second{
 
+    .bluebox{
+        width: 100%;
+        height: 500px;
+        background-color: $color-second-blue;
+
+        img{
+            width: 370px;
+            height: 330px;
+        }
+    }
+
+    .article-left{
+        .blue{
+            @include paragraphStyle(600);
+            color: $color-first-blue;
+        }
+        h3{
+            @include titleStyle;
+        }
+        .grey{
+            @include paragraphStyle;
+            color: $color-gray;
+        }
+    }
+
+    .article-middle{
+        img{
+            width: 304px;
+            height: 700px;
+            
+        }
+    }
+
+    .article-right{
+
+        p{
+            @include paragraphStyle(600);
+            color: $color-first-blue;
+        }
+        img{
+            width: 300px;
+            height: 435px;
+        }
+    }
+}
+.section-third{
+    .bluebox{
+        width: 100%;
+        height: 650px;
+        background-color: $color-first-blue;
+    }
+    .article-left{
+        h3{
+            @include titleStyle;
+        }
+        img{
+            width: 307px;
+            height: 568px;
+        }
+    }
+    .article-middle{
+        p{
+            @include paragraphStyle;
+            color: $color-gray;
+        }
+        img{
+            width: 280px;
+            height: 545px;
+        }
+    }
+    .article-right{
+        .rectangle{
+            width: 287px;
+            height: 683px;
+            border: 4px solid $color-second-blue;
+        }
+        img{
+            width: 275px;
+            height: 423px;
+        }
+        p{
+            @include paragraphStyle;
+            color: $color-gray;
+        }
+    }
+}
+.section-four{
+    width: 100%;
+    height: 650px;
+}
+.section-five{
+    background-color: $color-second-blue;
+    img{
+        width: 644px;
+        height: 312px;
+    }
+}
+.section-six{
+
+    background-color: $color-first-blue;
+    h3{
+        @include titleStyle;
+    }
+    p{
+        @include paragraphStyle;
+        color: $color-gray;
+    }
+    .input{
+        @include inputArea;
+    }
+    .textarea{
+        @include inputArea;
+    }
+    button{
+        font-family: $font-OpenSans;
+        font-weight: 600;
+        font-size: 16px;
+        color: white;
+        border-width: 0;
+        background-color: $color-second-blue;
+        cursor: pointer;
+        
+    }
+}

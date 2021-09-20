@@ -110,7 +110,7 @@ main .article-right img {
   margin-left: 30px;
 }
 .section-first .text h3 {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .section-first .image {
   grid-column: 2/3;
@@ -188,6 +188,152 @@ main .rectangle {
 .section-first img {
   width: 600px;
   height: 430px;
+}
+
+.section-second .bluebox {
+  width: 100%;
+  height: 500px;
+  background-color: #6B7B83;
+}
+.section-second .bluebox img {
+  width: 370px;
+  height: 330px;
+}
+.section-second .article-left .blue {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: italic;
+  color: #DFE8EC;
+}
+.section-second .article-left h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: auto;
+  letter-spacing: 1px;
+}
+.section-second .article-left .grey {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: italic;
+  color: #808080;
+}
+.section-second .article-middle img {
+  width: 304px;
+  height: 700px;
+}
+.section-second .article-right p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: italic;
+  color: #DFE8EC;
+}
+.section-second .article-right img {
+  width: 300px;
+  height: 435px;
+}
+
+.section-third .bluebox {
+  width: 100%;
+  height: 650px;
+  background-color: #DFE8EC;
+}
+.section-third .article-left h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: auto;
+  letter-spacing: 1px;
+}
+.section-third .article-left img {
+  width: 307px;
+  height: 568px;
+}
+.section-third .article-middle p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: italic;
+  color: #808080;
+}
+.section-third .article-middle img {
+  width: 280px;
+  height: 545px;
+}
+.section-third .article-right .rectangle {
+  width: 287px;
+  height: 683px;
+  border: 4px solid #6B7B83;
+}
+.section-third .article-right img {
+  width: 275px;
+  height: 423px;
+}
+.section-third .article-right p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: italic;
+  color: #808080;
+}
+
+.section-four {
+  width: 100%;
+  height: 650px;
+}
+
+.section-five {
+  background-color: #6B7B83;
+}
+.section-five img {
+  width: 644px;
+  height: 312px;
+}
+
+.section-six {
+  background-color: #DFE8EC;
+}
+.section-six h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: auto;
+  letter-spacing: 1px;
+}
+.section-six p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: italic;
+  color: #808080;
+}
+.section-six .input {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.section-six .textarea {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.section-six button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  border-width: 0;
+  background-color: #6B7B83;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */
